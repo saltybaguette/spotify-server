@@ -1,0 +1,22 @@
+{
+  "name": "spotify-server",
+  "version": "1.0.0",
+  "description": "final project server side",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saltybaguette/spotify-server.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Brian Gay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saltybaguette/spotify-server/issues"
+  },
+  "homepage": "https://github.com/saltybaguette/spotify-server#readme"
+}
