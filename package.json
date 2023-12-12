@@ -1,10 +1,12 @@
 {
+  "type": "module",
   "name": "spotify-server",
   "version": "1.0.0",
   "description": "final project server side",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,13 @@
   "bugs": {
     "url": "https://github.com/saltybaguette/spotify-server/issues"
   },
-  "homepage": "https://github.com/saltybaguette/spotify-server#readme"
+  "homepage": "https://github.com/saltybaguette/spotify-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mongoose": "^8.0.3"
+  },
+  "start": "node app.js"
 }
