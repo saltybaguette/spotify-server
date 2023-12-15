@@ -8,8 +8,12 @@ const userSchema = new mongoose.Schema({
         dob: Date,
         role: {
             type: String,
-            enum: ["STUDENT", "FACULTY", "ADMIN", "USER"],
+            enum: ["ADMIN", "USER"],
             default: "USER" },
+        liked_songs: [String],
+        liked_albums: [String],
+        followers: [String],
+        following: [String],
     },
     { collection: "users" });
 export default userSchema;
